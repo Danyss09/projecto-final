@@ -9,7 +9,7 @@ def connect_to_db():
     try:
         conn = mysql.connector.connect(
             host="localhost",
-            database="CustomerDb",
+            database="CustomerDeleteDb",
             user="root",  # Cambia según tu configuración
             password="dani0919"  # Cambia según tu configuración
         )
